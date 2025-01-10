@@ -5,6 +5,7 @@ import SelectPlan from "./SelectPlan";
 import { FormLayout } from "../Form/FormLayout";
 import { usePlans } from "../../context/SelectPlansContext";
 import PlanBox from "../PlanBox";
+import PlansFooter from "./PlansFototer";
 
 function PlansForm() {
   const { type, selectedPlan, error } = usePlans();
