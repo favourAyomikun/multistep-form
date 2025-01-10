@@ -6,7 +6,7 @@ import './App.css'
 function App() {
 
   return (
-    <div className=" bg-[#eff5ff] py-[10.5rem] md:py-0">
+    <div className=" bg-[#eff5ff] py-[10.5rem] mid:py-0">
       heeyeyeyy
     </div>
   )

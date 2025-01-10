@@ -18,10 +18,10 @@ export default {
       gridTemplateColumns: {
         form: "27.4rem 1fr",
       },
-      // screens: {
-      //   mid: { max: "50em" },
-      //   sma: { max: "37.5em" },
-      // },
+      screens: {
+        mid: { max: "50em" },
+        sma: { max: "37.5em" },
+      },
       boxShadow: {
         form: "0px 25px 40px -20px rgba(0, 0, 0, 0.10)",
       },
