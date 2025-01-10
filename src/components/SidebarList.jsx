@@ -1,6 +1,6 @@
 import { useForm } from "../context/FormsContext";
 
-function SiderbarList({ num, text }) {
+function SidebarList({ num, text }) {
   const { steps } = useForm();
   return (
     <div className="flex items-center gap-6">
@@ -29,4 +29,4 @@ function SiderbarList({ num, text }) {
   );
 }
 
-export default SiderbarList;
+export default SidebarList;
