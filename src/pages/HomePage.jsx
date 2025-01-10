@@ -1,6 +1,6 @@
 import React from 'react'
-import { Layout } from '../components/Layout'
 import { Sidebar } from '../components/Sidebar/Sidebar'
+import { Layout } from '../components/Layout'
 import { Form } from '../components/Form/Form'
 
 const HomePage = () => {
