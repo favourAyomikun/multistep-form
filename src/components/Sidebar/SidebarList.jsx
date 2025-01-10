@@ -1,4 +1,4 @@
-import { useForm } from "../context/FormsContext";
+import { useForm } from "../../context/FormsContext";
 
 function SidebarList({ num, text }) {
   const { steps } = useForm();
