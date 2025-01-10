@@ -3,7 +3,7 @@ import { Layout } from '../components/Layout'
 import { Sidebar } from '../components/Sidebar/Sidebar'
 import AddOnsForm from '../components/AddOns/AddOnsForm'
 
-export const AddOns = () => {
+const AddOns = () => {
   return (
     <Layout>
         <Sidebar />
@@ -11,3 +11,5 @@ export const AddOns = () => {
     </Layout>
   )
 }
+
+export default AddOns;

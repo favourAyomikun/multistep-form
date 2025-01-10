@@ -3,7 +3,7 @@ import { Layout } from '../components/Layout'
 import { Sidebar } from '../components/Sidebar/Sidebar'
 import FinishedPage from '../components/Finished/FinishedPage'
 
-export const Finshed = () => {
+const Finished = () => {
   return (
     <Layout>
         <Sidebar />
@@ -11,3 +11,5 @@ export const Finshed = () => {
     </Layout>
   )
 }
+
+export default Finished;

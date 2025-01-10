@@ -3,7 +3,7 @@ import { Layout } from '../components/Layout'
 import { Sidebar } from '../components/Sidebar/Sidebar'
 import PlansForm from '../components/Plans/PlansForm'
 
-export const SelectPlan = () => {
+const SelectPlan = () => {
   return (
     <Layout>
         <Sidebar />
@@ -11,3 +11,6 @@ export const SelectPlan = () => {
     </Layout>
   )
 }
+
+
+export default SelectPlan;

@@ -2,10 +2,10 @@ import Arcade from "/icon-arcade.svg";
 import Advanced from "/icon-advanced.svg";
 import Pro from "/icon-pro.svg";
 import SelectPlan from "./SelectPlan";
-import { FormLayout } from "../Form/FormLayout";
 import { usePlans } from "../../context/SelectPlansContext";
 import PlanBox from "./PlanBox";
-import PlansFooter from "./PlansFototer";
+import { FormLayout } from "../Form/FormLayout";
+import PlansFooter from "./PlansFooter";
 
 function PlansForm() {
   const { type, selectedPlan, error } = usePlans();

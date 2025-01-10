@@ -3,7 +3,7 @@ import { Layout } from '../components/Layout'
 import { Sidebar } from '../components/Sidebar/Sidebar'
 import SummaryForm from '../components/Summary/SummaryForm'
 
-export const Summary = () => {
+const Summary = () => {
   return (
     <Layout>
         <Sidebar />
@@ -11,3 +11,5 @@ export const Summary = () => {
     </Layout>
   )
 }
+
+export default Summary;
