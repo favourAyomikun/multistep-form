@@ -2,6 +2,7 @@ import React from "react";
 import { useForm } from "../context/FormsContext";
 import { FormLayout } from "./FormLayout";
 import InputField from "./InputField";
+import NextBtn from "./NextBtn";
 
 export const Form = () => {
   const {
@@ -52,7 +53,7 @@ export const Form = () => {
           error={phoneError}
         />
       </div>
-      
+      <NextBtn />
     </FormLayout>
   );
 };
