@@ -10,7 +10,7 @@ const initialState = {
     error: ""
 }
 
-// manages the sate for the plans selection system
+// manages the state for the plans selection system
 function reducer(state, action) {
     switch (action.type) {
       case "togglePlan":
