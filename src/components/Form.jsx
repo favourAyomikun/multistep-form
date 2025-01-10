@@ -29,7 +29,7 @@ export const Form = () => {
           id="name"
           label="Name"
           type="text"
-          placeholder="e.g Stephen King"
+          placeholder="e.g Favour Lola"
           value={name}
           onChange={handleName}
           error={nameError}
@@ -38,7 +38,7 @@ export const Form = () => {
           id="email"
           label="Email Address"
           type="email"
-          placeholder="e.g stephenking@lorem.com"
+          placeholder="e.g favourlola@gmail.com"
           value={email}
           onChange={handleEmail}
           error={emailError}
@@ -47,7 +47,7 @@ export const Form = () => {
           id="number"
           label="Phone Number"
           type="number"
-          placeholder="e.g +1 234 567 890"
+          placeholder="e.g +234 9944 1222 33"
           value={phone}
           onChange={handlePhone}
           error={phoneError}
