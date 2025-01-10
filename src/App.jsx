@@ -17,7 +17,7 @@ const Finished = lazy(() => import("./pages/Finished"));
 function App() {
 
   return (
-    <div className=" bg-[#eff5ff] py-[10.5rem] mid:py-0">
+    <div className=" bg-[#eff5ff] py-[20rem] mid:py-0">
       <FormProvider>
         <SelectPlansProvider>
           <AddOnsProvider>
