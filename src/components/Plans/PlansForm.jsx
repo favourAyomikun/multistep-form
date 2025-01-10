@@ -4,7 +4,7 @@ import Pro from "/icon-pro.svg";
 import SelectPlan from "./SelectPlan";
 import { FormLayout } from "../Form/FormLayout";
 import { usePlans } from "../../context/SelectPlansContext";
-import PlanBox from "../PlanBox";
+import PlanBox from "./PlanBox";
 import PlansFooter from "./PlansFototer";
 
 function PlansForm() {
