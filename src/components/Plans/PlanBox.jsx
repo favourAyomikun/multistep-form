@@ -1,4 +1,4 @@
-import { usePlans } from "../context/SelectPlansContext";
+import { usePlans } from "../../context/SelectPlansContext";
 
 function PlanBox({ img, title, price }) {
   const { type, selectedPlan, dispatch } = usePlans();

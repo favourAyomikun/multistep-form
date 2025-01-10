@@ -1,5 +1,5 @@
 import React from "react";
-import SidebarList from "./SidebarList";
+import SidebarList from "../SidebarList";
 
 export const Sidebar = () => {
   return (

@@ -1,8 +1,8 @@
 import React from "react";
-import { useForm } from "../context/FormsContext";
+import { useForm } from "../../context/FormsContext";
 import { FormLayout } from "./FormLayout";
-import InputField from "./InputField";
-import NextBtn from "./NextBtn";
+import InputField from "../InputField";
+import NextBtn from "../NextBtn";
 
 export const Form = () => {
   const {
